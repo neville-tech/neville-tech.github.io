@@ -10,5 +10,6 @@ h1, h2, ul li {
   margin-bottom: 0px;
 }
 .company {
+  font-weight: bold;
   margin-top: 0px;
 }
