@@ -6,4 +6,8 @@ h1, h2 {
 }
 .designation {
   color: #84C9FB;
+  margin-bottom: 0px;
+}
+.company {
+  margin-top: 0px;
 }
