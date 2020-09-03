@@ -1,12 +1,26 @@
 @font-face{
   font-family: "Astro Space";
-  src: url(AstroSpace-0Wl3o.otf);
+  src: url(assets/fonts/custom/AstroSpace-0Wl3o.otf);
 }
 body {
   background-color: #4a0072;
   font-family: "Astro Space";
-  font-size: 48px;
 }
-h1, h2, h3, ul li {
+h1, h2, h3 {
   color: #ffffff;
+}
+#name{
+  text-align: center;
+  font-size: 60px;
+}
+#social{
+  text-align: center;
+  list-style-type: none;
+}
+#social li{
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 3px;
+  display: inline-block;
 }
