@@ -4,7 +4,8 @@
 }
 body {
   background-color: #4a0072;
-  font-family: Arial;
+  font-family: "Astro Space";
+  font-size: 72px;
 }
 h1, h2, h3, ul li {
   color: #ffffff;
