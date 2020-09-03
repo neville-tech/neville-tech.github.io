@@ -1,21 +1,7 @@
 body {
-  background-color: #181713;
+  background-color: #4a0072;
   font-family: Arial;
 }
 h1, h2, h3, ul li {
   color: #ffffff;
-}
-.designation, .degree {
-  font-weight: bold;
-  color: #84C9FB;
-  margin-bottom: 0px;
-}
-.company, .institute {
-  font-weight: bold;
-  margin-top: 0px;
-}
-.exp-card {
-  background-color: #272727;
-  margin-bottom: 15px;
-  padding: 1px 1px 1px 1px;
 }
