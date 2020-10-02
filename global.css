@@ -3,24 +3,41 @@
   src: url(assets/fonts/custom/AstroSpace-0Wl3o.otf);
 }
 body {
-  background-color: #4a0072;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   font-family: "Astro Space";
+  background-color: #f0f2f5;
 }
-h1, h2, h3 {
-  color: #ffffff;
+#header{
+  width: 100%;
+  background-color: #ffffff;
 }
-#name{
-  text-align: center;
-  font-size: 60px;
+#header > #name{
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding: 10px;
+  font-size: 52px;
+  color: #1877f2;
+}
+#navigation{
+  width: 100%;
+  margin-top: 0;
+  background-color: #1877f2;
 }
 #social{
-  text-align: center;
   list-style-type: none;
 }
 #social li{
   padding: 5px;
   margin: 5px;
-  background-color: white;
+  color: #ffffff;
   border-radius: 3px;
   display: inline-block;
+}
+.nostyle{
+  color: inherit;
 }
